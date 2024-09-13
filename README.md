@@ -1,5 +1,5 @@
-# Lab-Basis-Data-2023-KLP-8
-Repositori untuk pengumpulan Tugas Praktikum Asistensi 08 Sistem Basis Data 2023 Sistem Informasi Universitas Hasanuddin
+# Lab-Pemrograman-Web-05-2024
+Repositori untuk pengumpulan Tugas Praktikum Asistensi 05 Pemrograman Web 2024 Sistem Informasi Universitas Hasanuddin
 
 ## Aturan Pengumpulan
 **Note:**  
