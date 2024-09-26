@@ -1,0 +1,209 @@
+body {
+    
+    margin :0%;
+    padding: 0%;
+    
+    }
+html{
+    scroll-behavior: smooth;
+}
+
+    @font-face {
+        font-family: "bat";
+        src: url(font/batmfa__.ttf);
+      
+    }
+.navbar{
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+
+}
+    .navbar-item a{
+        height: 100%;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(167, 39, 39);
+        border-radius: 10px;
+        
+    }
+    .navbar-item :hover {
+        background-color: rgb(34, 34, 34);
+
+    }
+    #main{
+        background-color: rgb(176, 176, 176);
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;    
+        justify-content: center;   
+    }
+        .main-item p{
+            width: 70%;
+            margin-top: 20px;
+            margin-left: 100px;
+            font-size: 18px;
+            text-align: justify;
+            
+        }
+        .main-item h1{
+            width: 70%;
+            font-size: 38px;
+            text-align: left;
+            margin-left: 100px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            font-family: 'bat';
+            
+            color: rgb(167, 39, 39);
+
+            
+        }
+        .main-item h3{
+            font-weight: 700;
+            font-family: "Raleway";
+            width: 40%;
+            font-style: normal;
+            margin-bottom: 1px;
+            margin-left: 100px;
+            font-size: 28px;
+            text-align: left;
+        }
+        .main-item img{
+            width: 500px;
+            margin: aut;
+        }
+    
+
+
+        #About {
+            background-color: rgb(32, 32, 32);
+            width: 100%;
+            height: 350px;
+            display: flex;
+            align-items: center;
+        }
+            .About-item {
+                color: #D5CCBEff;
+                margin: 5%;
+                text-align: justify;
+            }
+
+#Gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+.Gallery-item {
+    overflow: hidden; 
+    border-radius: 8px; 
+}
+.Gallery-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    
+}
+.Gallery-item :hover {
+    transform: scale(1.1); 
+    
+   
+}
+
+
+
+    #Contact{
+     
+        background-color: #333;
+        color: rgb(218, 0, 0);
+        display: flex;
+        justify-content:space-around;
+        padding: 1;
+        position: static;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .nav-left {
+        display: flex;
+        align-items:center;
+    }
+    
+    .logo {
+        height: 50px; 
+    }
+    
+    .nav-right {
+        text-align: center; 
+    }
+    
+    @media (max-width: 1000px) {
+        .navbar {
+            flex-direction: column;
+            height: auto;
+        }
+    
+        .navbar-item a {
+            font-size: 14px;
+            padding: 5px;
+            margin: 5px;
+        }
+    
+        #main {
+            flex-direction: column; 
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        .main-item h1 {
+            font-size: 28px;
+            margin-left: 0;
+        }
+    
+        .main-item h3 {
+            font-size: 22px;
+            margin-left: 0;
+        }
+    
+        .main-item p {
+            font-size: 16px;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .main-item img {
+            width: 90%;
+            margin: 20px auto;
+        }
+    
+        #Gallery {
+            grid-template-columns: 1fr;
+        }
+    
+        #Contact {
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+        }
+    
+        .logo {
+            height: 40px;
+        }
+    }
+
+    
+
+
+
+
