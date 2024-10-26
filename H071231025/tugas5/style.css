@@ -1,0 +1,62 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff0000;
+}
+
+#balanceDisplay {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#betInput {
+    width: 200px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.card {
+    width: 120px;
+    height: 180px;
+    margin: 10px;
+}
+
+#playerHand, #dealerHand {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#result {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ff0000;
+}
+
+#controls {
+    margin: 20px 0;
+}
